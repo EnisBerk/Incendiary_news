@@ -2,10 +2,10 @@
 #Repository for Incendiary News Detection paper submitted to FLAIRS-32:
 
 
-Notebooks according to their names:
-	* word2vec: word vectors as features with different classifiers.
-	* BBC_BBC : we are training with BBC positive samples and testing with BBC again.
-	* BBC_CNN : we are training with BBC positive samples and testing with CNN positive samples.
+Notebooks according to their names:  
+	* word2vec: word vectors as features with different classifiers.  
+	* BBC_BBC : we are training with BBC positive samples and testing with BBC again.  
+	* BBC_CNN : we are training with BBC positive samples and testing with CNN positive samples.  
 
 
 Other files:
@@ -23,7 +23,7 @@ Original data collected is stored in data folder:
 * iter2_text_neg_bbc_12981.json           Non-Incendiary News from BBC, second iteration
 * iter1_article_text_neg_CNN_08109.json   Non-Incendiary News from CNN, first iteration
 
-Authors
+Authors:
 * [@EnisBerk](https://github.com/EnisBerk)
 * [Elena Filatova](https://ef2020.commons.gc.cuny.edu/)
 
