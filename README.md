@@ -27,13 +27,13 @@ Original data collected is stored in data folder:
 
 
 Requirements:
-python=3.7.1
-scikit-learn=0.20.0
-nltk=3.3.0
-numpy=1.15.2
+python=3.7.1 
+scikit-learn=0.20.0 
+nltk=3.3.0 
+numpy=1.15.2 
 
-#my_tagger.yaml and pos_tagger.py from [turkish-pos-tagger](https://github.com/onuryilmaz/turkish-pos-tagger/tree/a889bc2e633561f5050035cd1ffaf91b3ef38fe5)
-#[turkish-stemmer-python](#https://github.com/otuncelli/turkish-stemmer-python/tree/1f60006c023152e46e5704065cdc51e68d63240a)
+# my_tagger.yaml and pos_tagger.py from [turkish-pos-tagger](https://github.com/onuryilmaz/turkish-pos-tagger/tree/a889bc2e633561f5050035cd1ffaf91b3ef38fe5) 
+# [turkish-stemmer-python](#https://github.com/otuncelli/turkish-stemmer-python/tree/1f60006c023152e46e5704065cdc51e68d63240a)
 
 
 	
