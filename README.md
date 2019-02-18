@@ -12,7 +12,7 @@ Other files:
 
 * ./data/clean_data.p : is a pickle file, includes all datasets cleaned by cleantext.py
 
-* ./data/word2vec.txt : stores vectors for each word exists in the corpus, generated with [fasttext](https://github.com/facebookresearch/fastText). It is tab separated and each line have a word followed with 300 floating point numbers.
+* [word2vec.txt](https://drive.google.com/open?id=1s_YSwDsQu_9cyWK9Hr_I2UZhMm1zpQ0I) : stores vectors for each word exists in the corpus, generated with [fasttext](https://github.com/facebookresearch/fastText). It is tab separated and each line have a word followed with 300 floating point numbers. 
 
 * cleantext.py : This code cleans corpus and generates clean_data.p pickle. Cleaning includes removing website urls, source names, words related to crawling process of specific sources, characters that exists only specific resources. Also articles with less than 100 characters are removed from corpus. For details please check the file. 
 After cleaning data, it also create list of all words to be used with fasttext for word2vec and saves to ./data/wordlist.txt
