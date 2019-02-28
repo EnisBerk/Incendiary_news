@@ -37,5 +37,31 @@ numpy=1.15.2
 #my_tagger.yaml and pos_tagger.py files from [turkish-pos-tagger](https://github.com/onuryilmaz/turkish-pos-tagger/tree/a889bc2e633561f5050035cd1ffaf91b3ef38fe5)  
 #[turkish-stemmer-python](https://github.com/otuncelli/turkish-stemmer-python/tree/1f60006c023152e46e5704065cdc51e68d63240a)
 
+## How to get notebooks working:
 
-	
+Add following lines to beginning of the notebook, downloands all required files 
+```
+
+!git clone https://github.com/EnisBerk/Incendiary_news.git
+%cd Incendiary_news
+
+!git clone https://github.com/otuncelli/turkish-stemmer-python.git
+%cd turkish-stemmer-python/
+!git reset --hard 1f60006c023152e46e5704065cdc51e68d63240a
+%cd ../
+
+!git clone https://github.com/onuryilmaz/turkish-pos-tagger.git
+%cd turkish-pos-tagger
+!git reset --hard a889bc2e633561f5050035cd1ffaf91b3ef38fe5
+%cd ../
+
+!cp -r turkish-pos-tagger/* ./
+!cp -r turkish-stemmer-python/* ./
+
+!rm -r turkish-pos-tagger
+!rm -r turkish-stemmer-python
+
+!curl -O https://storage.googleapis.com/deep_learning_enis/Incendiary_news/word2vec.txt
+!cp word2vec.txt ./data/
+```
+
