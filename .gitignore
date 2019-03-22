@@ -6,3 +6,4 @@ TurkishStemmer/
 my_tagger.yaml
 pos_tagger.py
 __pycache__/*
+website/*

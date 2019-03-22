@@ -1,7 +1,7 @@
 
 import json
 import nltk
-from TurkishStemmer import TurkishStemmer
+# from TurkishStemmer import TurkishStemmer
 import pickle
 
 # there are four files with data
@@ -67,7 +67,7 @@ my_stopwords.extend(['facebook', 'telif','hakkı', 'telif hakkı','dr','bbc','b�
 # keep only those turkish letters
 lowercase=' abcdefghijklmnoprstuvyzğöıüşç'
 
-stemmer = TurkishStemmer()
+# stemmer = TurkishStemmer()
 
 # this function lowers text, 
 # then removes characters such as @ or » because

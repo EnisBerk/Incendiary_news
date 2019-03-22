@@ -63,5 +63,8 @@ Add following lines to beginning of the notebook, downloands all required files
 
 !curl -O https://storage.googleapis.com/deep_learning_enis/Incendiary_news/word2vec.txt
 !cp word2vec.txt ./data/
+
+import nltk
+nltk.download('punkt')
 ```
 
