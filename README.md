@@ -1,6 +1,7 @@
 
 # Repository for Incendiary News Detection paper submitted to FLAIRS-32:
 
+Minimal demo website: https://incendiarynews.firebaseapp.com
 
 Notebooks according to their names:  
 * word2vec: word vectors as features with different classifiers.  
@@ -12,9 +13,9 @@ Other files:
 
 * ./data/clean_data.p : is a pickle file, includes all datasets cleaned by cleantext.py
 
-* [word2vec.txt](https://storage.googleapis.com/deep_learning_enis/Incendiary_news/word2vec.txt) : stores vectors for each word exists in the corpus, generated with [fasttext](https://github.com/facebookresearch/fastText). It is tab separated and each line have a word followed with 300 floating point numbers. 
+* [word2vec.txt](https://storage.googleapis.com/deep_learning_enis/Incendiary_news/word2vec.txt) : stores vectors for each word exists in the corpus, generated with [fasttext](https://github.com/facebookresearch/fastText). It is tab separated and each line have a word followed with 300 floating point numbers.
 
-* cleantext.py : This code cleans corpus and generates clean_data.p pickle. Cleaning includes removing website urls, source names, words related to crawling process of specific sources, characters that exists only specific resources. Also articles with less than 100 characters are removed from corpus. For details please check the file. 
+* cleantext.py : This code cleans corpus and generates clean_data.p pickle. Cleaning includes removing website urls, source names, words related to crawling process of specific sources, characters that exists only specific resources. Also articles with less than 100 characters are removed from corpus. For details please check the file.
 After cleaning data, it also create list of all words to be used with fasttext for word2vec and saves to ./data/wordlist.txt
 
 Original data collected is stored in data folder:
@@ -39,7 +40,7 @@ numpy=1.15.2
 
 ## How to get notebooks working:
 
-Add following lines to beginning of the notebook, downloands all required files 
+Add following lines to beginning of the notebook, downloands all required files
 ```
 
 !git clone https://github.com/EnisBerk/Incendiary_news.git
@@ -67,4 +68,3 @@ Add following lines to beginning of the notebook, downloands all required files
 import nltk
 nltk.download('punkt')
 ```
-
